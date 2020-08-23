@@ -1,0 +1,5 @@
+app/code/community/VS7/Dadata                             app/code/community/VS7/Dadata
+app/etc/modules/VS7_Dadata.xml                            app/etc/modules/VS7_Dadata.xml
+app/design/frontend/base/default/layout/vs7_dadata.xml    app/design/frontend/base/default/layout/vs7_dadata.xml
+app/design/frontend/base/default/template/vs7_dadata      app/design/frontend/base/default/template/vs7_dadata
+skin/frontend/base/default/vs7_dadata                     skin/frontend/base/default/vs7_dadata

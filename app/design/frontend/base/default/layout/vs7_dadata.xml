@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<layout>
+    <dadata>
+        <reference name="head">
+            <block type="core/template" name="dadata_token" template="vs7_dadata/settings.phtml"/>
+            <action method="addItem" ifconfig="dadata/general/enable">
+                <type>skin_js</type>
+                <name>vs7_dadata/jquery.suggestions.js</name>
+            </action>
+            <action method="addItem" ifconfig="dadata/general/enable">
+                <type>skin_js</type>
+                <name>vs7_dadata/jquery.xdomainrequest.min.js</name>
+            </action>
+            <action method="addItem" ifconfig="dadata/general/enable">
+                <type>skin_js</type>
+                <name>vs7_dadata/dadata_init.js</name>
+            </action>
+            <action method="addItem" ifconfig="dadata/general/enable">
+                <type>skin_css</type>
+                <name>vs7_dadata/suggestions.min.css</name>
+            </action>
+        </reference>
+    </dadata>
+    <checkout_onepage_index>
+        <update handle="dadata"></update>
+    </checkout_onepage_index>
+    <customer_address_form>
+        <update handle="dadata"></update>
+    </customer_address_form>
+</layout>
